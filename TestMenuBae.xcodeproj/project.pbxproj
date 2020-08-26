@@ -15,6 +15,14 @@
 		322F344424F35A6200BA327E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 322F344224F35A6200BA327E /* LaunchScreen.storyboard */; };
 		322F344F24F35A6200BA327E /* TestMenuBaeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322F344E24F35A6200BA327E /* TestMenuBaeTests.swift */; };
 		322F345A24F35A6200BA327E /* TestMenuBaeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322F345924F35A6200BA327E /* TestMenuBaeUITests.swift */; };
+		322F346A24F35B4A00BA327E /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 322F346824F35B4A00BA327E /* SWRevealViewController.m */; };
+		323A34FD24F372690039C8B1 /* StoryboardVC1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 323A34FC24F372690039C8B1 /* StoryboardVC1.storyboard */; };
+		323A34FF24F3727B0039C8B1 /* StoryboardVC2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 323A34FE24F3727B0039C8B1 /* StoryboardVC2.storyboard */; };
+		323A350124F38D1C0039C8B1 /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323A350024F38D1C0039C8B1 /* ViewController1.swift */; };
+		323A350324F38D2C0039C8B1 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323A350224F38D2C0039C8B1 /* ViewController2.swift */; };
+		323A350524F392A30039C8B1 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323A350424F392A30039C8B1 /* MenuViewController.swift */; };
+		32A8B2C024F6040500B430C4 /* Test1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A8B2BF24F6040500B430C4 /* Test1ViewController.swift */; };
+		32A8B2C224F6043200B430C4 /* Tteesstt11ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A8B2C124F6043200B430C4 /* Tteesstt11ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +57,16 @@
 		322F345524F35A6200BA327E /* TestMenuBaeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestMenuBaeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		322F345924F35A6200BA327E /* TestMenuBaeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMenuBaeUITests.swift; sourceTree = "<group>"; };
 		322F345B24F35A6200BA327E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		322F346724F35B4A00BA327E /* TestMenuBae-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestMenuBae-Bridging-Header.h"; sourceTree = "<group>"; };
+		322F346824F35B4A00BA327E /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		322F346924F35B4A00BA327E /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		323A34FC24F372690039C8B1 /* StoryboardVC1.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StoryboardVC1.storyboard; sourceTree = "<group>"; };
+		323A34FE24F3727B0039C8B1 /* StoryboardVC2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StoryboardVC2.storyboard; sourceTree = "<group>"; };
+		323A350024F38D1C0039C8B1 /* ViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
+		323A350224F38D2C0039C8B1 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		323A350424F392A30039C8B1 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		32A8B2BF24F6040500B430C4 /* Test1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test1ViewController.swift; sourceTree = "<group>"; };
+		32A8B2C124F6043200B430C4 /* Tteesstt11ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tteesstt11ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +117,8 @@
 		322F343624F35A6100BA327E /* TestMenuBae */ = {
 			isa = PBXGroup;
 			children = (
+				322F346924F35B4A00BA327E /* SWRevealViewController.h */,
+				322F346824F35B4A00BA327E /* SWRevealViewController.m */,
 				322F343724F35A6100BA327E /* AppDelegate.swift */,
 				322F343924F35A6100BA327E /* SceneDelegate.swift */,
 				322F343B24F35A6100BA327E /* ViewController.swift */,
@@ -106,6 +126,14 @@
 				322F344024F35A6200BA327E /* Assets.xcassets */,
 				322F344224F35A6200BA327E /* LaunchScreen.storyboard */,
 				322F344524F35A6200BA327E /* Info.plist */,
+				322F346724F35B4A00BA327E /* TestMenuBae-Bridging-Header.h */,
+				323A34FC24F372690039C8B1 /* StoryboardVC1.storyboard */,
+				323A34FE24F3727B0039C8B1 /* StoryboardVC2.storyboard */,
+				323A350024F38D1C0039C8B1 /* ViewController1.swift */,
+				323A350224F38D2C0039C8B1 /* ViewController2.swift */,
+				323A350424F392A30039C8B1 /* MenuViewController.swift */,
+				32A8B2BF24F6040500B430C4 /* Test1ViewController.swift */,
+				32A8B2C124F6043200B430C4 /* Tteesstt11ViewController.swift */,
 			);
 			path = TestMenuBae;
 			sourceTree = "<group>";
@@ -196,6 +224,7 @@
 				TargetAttributes = {
 					322F343324F35A6100BA327E = {
 						CreatedOnToolsVersion = 11.1;
+						LastSwiftMigration = 1110;
 					};
 					322F344924F35A6200BA327E = {
 						CreatedOnToolsVersion = 11.1;
@@ -234,6 +263,8 @@
 			files = (
 				322F344424F35A6200BA327E /* LaunchScreen.storyboard in Resources */,
 				322F344124F35A6200BA327E /* Assets.xcassets in Resources */,
+				323A34FD24F372690039C8B1 /* StoryboardVC1.storyboard in Resources */,
+				323A34FF24F3727B0039C8B1 /* StoryboardVC2.storyboard in Resources */,
 				322F343F24F35A6100BA327E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,8 +291,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				322F343C24F35A6100BA327E /* ViewController.swift in Sources */,
+				32A8B2C224F6043200B430C4 /* Tteesstt11ViewController.swift in Sources */,
+				323A350124F38D1C0039C8B1 /* ViewController1.swift in Sources */,
 				322F343824F35A6100BA327E /* AppDelegate.swift in Sources */,
+				323A350524F392A30039C8B1 /* MenuViewController.swift in Sources */,
+				32A8B2C024F6040500B430C4 /* Test1ViewController.swift in Sources */,
 				322F343A24F35A6100BA327E /* SceneDelegate.swift in Sources */,
+				322F346A24F35B4A00BA327E /* SWRevealViewController.m in Sources */,
+				323A350324F38D2C0039C8B1 /* ViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,16 +471,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TestMenuBae/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = tw.com.bruce.TestMenuBae;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TestMenuBae/TestMenuBae-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -451,16 +492,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TestMenuBae/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = tw.com.bruce.TestMenuBae;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TestMenuBae/TestMenuBae-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
